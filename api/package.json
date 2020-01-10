@@ -1,6 +1,11 @@
 {
-  "name": "server",
+  "name": "k8s-demo-cluster-api",
   "version": "1.0.0",
+  "author": {
+    "email": "adilosama47@gmail.com",
+    "name": "Osama Adil",
+    "url": "https://www.github.com/phr3nzy"
+  },
   "main": "index.js",
   "license": "MIT",
   "scripts": {
