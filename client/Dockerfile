@@ -14,4 +14,6 @@ FROM node:12.14.0-alpine3.11
 
 COPY --from=builder /app/__sapper__/export .
 
-CMD ["npx", "http-server", "."]
+EXPOSE 5000
+
+CMD ["npx", "http-server", ".", "-p", "5000"]
