@@ -1,6 +1,6 @@
 # K8s Cluster Demo
 
-This is a demo displaying a Kubernetes cluster made up of a server (Express API) and a client (Svelte App).
+This is a demo displaying a Kubernetes cluster made up of a reverse proxy (nginx), a server (Express API) and a client (Svelte App).
 
 This project is intended to show how easy it is to setup your own Kubernetes cluster, debug it, extend it with plugins and manage it.
 
