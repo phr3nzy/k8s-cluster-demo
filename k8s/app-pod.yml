@@ -1,0 +1,32 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-pod
+  labels:
+    name: app-pod
+spec:
+  containers:
+  - name: nginx
+    image: phr3nzy/k8s-cluster-demo-nginx
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 80
+  - name: api
+    image: phr3nzy/k8s-cluster-demo-api
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 3000
+  - name: client
+    image: phr3nzy/k8s-cluster-demo-client
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 5000
