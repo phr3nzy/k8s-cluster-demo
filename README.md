@@ -1,4 +1,4 @@
-# K8s Cluster Demo
+# Kubernetes Cluster Demo
 
 This is a demo displaying a Kubernetes cluster made up of a reverse proxy (nginx), an API (Express API) and a client (Sapper App).
 
